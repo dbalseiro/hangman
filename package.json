@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "react-dom": "^16.10.2",
     "reason-scripts": "1.0.0"
   },
   "scripts": {
