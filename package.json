@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.7.0",
+    "react": "^17.0.1",
     "react-dom": "^16.13.1",
     "reason-scripts": "1.0.0"
   },
