@@ -1,0 +1,28 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  reviewers:
+  - dbalseiro
+  ignore:
+  - dependency-name: bs-fetch
+    versions:
+    - 0.6.2
+  - dependency-name: bs-platform
+    versions:
+    - 9.0.2
+  - dependency-name: "@glennsl/bs-jest"
+    versions:
+    - 0.6.0
+  - dependency-name: react
+    versions:
+    - 17.0.1
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
